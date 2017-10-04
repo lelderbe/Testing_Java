@@ -6,12 +6,14 @@ package arrays;
 public class ArrayInit {
     public static void main(String[] args) {
         int a[] = new int[5];
-//        ArrayInit a[] = new ArrayInit[5];
 
-//        a[1] = null;
+        int[] arr = {1, 2, 3};
+        arr = new int[] {2, 3, 4};
 
-        for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i]);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
         }
+
+
     }
 }
