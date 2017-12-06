@@ -27,7 +27,35 @@ public class Solution {
 //        writer.close();
 //
 
-        int e = new int[4][8].length;
-        System.out.println(e);
+
+
+//        int e = new int[4][8].length;
+//        System.out.println(e);
+
+
+//        int a = 5;
+//
+//        System.out.println(++a);
+//
+//        a = 5;
+//
+//        System.out.println(a++);
+
+
+//        byte a = 5;
+//        byte b = 3;
+//        byte c = (byte) (a++ + ++b);
+
+//        int a = 6;
+//        int b = 4;
+//        a = ++a + b++ + a++;
+//        int c = --a + b--;
+//        System.out.println("a: " + a + ", b: " + b + ", c: " + c);
+
+
+        byte a = 2, b = 3;
+        byte c = a == b-- ? a : b;
+        System.out.print(c);
+
     }
 }
