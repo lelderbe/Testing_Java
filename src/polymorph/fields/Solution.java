@@ -14,6 +14,9 @@ public class Solution {
 
         instance.method();
         System.out.println(instance.x);
+
+        new A().method();
+        new B().method();
     }
 }
 
@@ -22,6 +25,8 @@ class A {
 
     public void method() {
         System.out.println("method A");
+        System.out.println(this);
+//        System.out.println(this.getClass().getSimpleName());
     }
 }
 
@@ -31,5 +36,7 @@ class B extends A {
     @Override
     public void method() {
         System.out.println("method B");
+        System.out.println(this);
+//        System.out.println(this.getClass().getSimpleName());
     }
 }
